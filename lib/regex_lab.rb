@@ -14,12 +14,12 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
   text.match?(/\A[A-Z].+\W$/)
 end
 
-# I stepped on a Corn Flake, now I'm a cereal killer. 
-# 
+# I stepped on a Corn Flake, now I'm a cereal killer.
+#
 # i wondered why the baseball was getting bigger. Then it hit me.
-# 
+#
 # Did you hear about the guy whose whole left side was cut off? He's all right now
-# 
+#
 # when fish are in schools, they sometimes take debate
 
 def valid_phone_number?(phone)
